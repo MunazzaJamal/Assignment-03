@@ -3,5 +3,6 @@ void main() {
 
   // Use where() to filter even numbers
   var pos = myList.where((num) => num > 0).toList();
+  print('The original list: $myList');
   print('The positive integer list: $pos');
 }

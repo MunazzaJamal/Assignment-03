@@ -3,5 +3,5 @@ void main() {
 
   var new_list = List.of(myList);
   new_list.sort();
-  print("The greatest number is: ${new_list.last}");
+  print("The maximum number is: ${new_list.last}");
 }
